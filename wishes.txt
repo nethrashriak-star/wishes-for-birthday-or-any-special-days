@@ -1,0 +1,26 @@
+import time
+
+RED = "\033[91m"
+RESET = "\033[0m"
+
+heart = [
+    "  *       *  ",
+    " ***     *** ",
+    " ***** ******",
+    "  **VARSHA**",
+    "   ******* ",
+    "    *****   ",
+    "     ***     ",
+    "      *       "
+]
+
+print("\n💖 Just for you, Varsha 💖\n")
+time.sleep(1)
+
+for line in heart:
+    print(RED + line + RESET)
+    time.sleep(0.4)
+
+time.sleep(0.6)
+print(f"\n{RED}Happy Birthday ❤️{RESET}")
+print("Some names deserve a place right in the middle.")
